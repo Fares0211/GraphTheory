@@ -1,0 +1,65 @@
+
+
+************PAGE D'ACCUEIL DU PROJET DE THEORIE DES GRAPHES***************
+ Recherche de chemin de valeur minimale par l’algorithme de Floyd-Warshall
+
+Farès Fadili
+
+*************************************************************************
+
+
+--------------------------------------------------------------------
+                          CHOIX DU GRAPHE                           
+--------------------------------------------------------------------
+
+Veuillez selectionner un graphe > 2
+
+Matrice d'adjacence (M): 
+
+   0 1 2 3 
+   ________
+0 |0 1 1 0 
+1 |0 0 1 1 
+2 |0 0 0 1 
+3 |0 0 0 0 
+
+
+Matrice des valeurs (W0) 
+   0	1	2	3	
+  ---	---	---	---	
+0| 0	1	5	Inf	 
+1| Inf	0	-3	5	 
+2| Inf	Inf	0	2	 
+3| Inf	Inf	Inf	0	 
+
+
+
+Matrice des valeurs (Wn) 
+   0	1	2	3	
+  ---	---	---	---	
+0| 0.0	1.0	-2.0	0.0	 
+1| inf	0.0	-3.0	-1.0	 
+2| inf	inf	0.0	2.0	 
+3| inf	inf	inf	0.0	 
+
+
+
+
+------------------------------------------------------------------------
+      CHOIX DES SOMMETS POUR CALCULER LE CHEMIN LE PLUS COURT           
+------------------------------------------------------------------------
+
+Entrez un premier sommet, compris entre 0 et 3 > 2
+Entrez un second sommet, compris entre 0 et 3 > 3
+Le plus court chemin du sommet 2 au sommet 3 est: [2 -> 3]  de longueur 2.0
+
+
+
+
+
+
+--------------------------------------------------------------------
+                          CHOIX DU GRAPHE                           
+--------------------------------------------------------------------
+
+Veuillez selectionner un graphe > 
